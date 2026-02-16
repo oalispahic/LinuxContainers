@@ -4,7 +4,7 @@ Dockerfile + bash script to create a portable and lightweight linux dev containe
 
 Run in terminal and you have Linux :)
 
-(imgs/pc.png)
+![Image of container running](imgs/pc.png)
 
 Make sure you have installed docker and just run the script.
 
