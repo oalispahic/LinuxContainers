@@ -1,8 +1,21 @@
 # LinuxContainers
 
-Dockerfile + bash script to create a portable and light weight linux dev container.
+Dockerfile + bash script to create a portable and lightweight linux dev container using Docker.
+
+Run in terminal and you have Linux :)
 
 Make sure you have installed docker and just run the script.
+
+```
+./setup.sh
+```
+
+After that the following commands will be available: 
+```
+pc
+lin
+lab
+```
 This creates three images.
 
 First image is ran by running "pc" in terminal, creates a linux container which can be used to test stuff and keep them saved.
@@ -13,7 +26,7 @@ Run "lab" to create a true throwaway linux container, work it, break it, does no
 
 
 By default "pc" and "lin" are configured with the following 
-
+```
     git 
     build-essential 
     curl 
@@ -25,3 +38,4 @@ By default "pc" and "lin" are configured with the following
     python3-pip 
     ca-certificates 
     sudo
+```
